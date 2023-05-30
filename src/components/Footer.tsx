@@ -2,7 +2,7 @@ import {AppBar, Box, Link, Toolbar, Typography} from "@mui/material";
 
 export default function Footer() {
   return (
-    <Box sx={{ position: "absolute", bottom: 0, width: "100%", marginTop: "24px" }}>
+    <Box sx={{ position: "sticky", bottom: 0, width: "100%", marginTop: "24px" }}>
       <AppBar position="static" color={"default"}>
         <Toolbar>
           <Box mx={2}>

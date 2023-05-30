@@ -19,7 +19,7 @@ export default function Home() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item={true} xs={6}>
+          <Grid item={true} xs={12} md={6}>
             <Card>
               <CardContent>
                 <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus euismod accumsan.
@@ -48,7 +48,7 @@ export default function Home() {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item={true} xs={6}>
+          <Grid item={true} xs={12} md={6}>
             <Card>
               <CardContent>
                 <Typography>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.

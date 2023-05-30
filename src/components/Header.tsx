@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Header(props: PropsWithChildren) {
   return (
-    <Box sx={{ flexGrow: 1, marginBottom: "24px" }}>
+    <Box sx={{ position: "sticky", top: 0, flexGrow: 1, marginBottom: "24px" }}>
       <AppBar position="static" color={"default"}>
         <Toolbar>
           <IconButton
